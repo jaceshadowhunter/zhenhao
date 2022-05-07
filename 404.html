@@ -5,16 +5,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My First Webpage</title> 
     <style>
-        img { Width: 360px;
-        Height:360px;}
+        body {background-color: rgba(136, 103, 60, 0.856);}
+        #anime_boy{ Width: 400px;
+                    Height:400px;}
+        #image-container, #title {
+            text-align: center;
+        }
         table { border-collapse: collapse; }
         tr, td { border: 1px solid black;}
     </style>
     <head>
     <body>
-        <img src="/webpage/pfp.jpg"  alt="anime boy">
-        <h3>Self-Introduction</h3>
-        <p>
+        <div id="image-container">
+            <img id="anime_boy" src="../HTML/pfp.jpg"  alt="anime boy">
+        </div>
+        <div id="title">
+            <h1>Welcome to  my Webpage!</h1>
+        </div>
+         <p>
         My name is Yap Zhen Hao, and I turn 19 this year. I am currently attending 
         Taylor's Lakeside Campus in Subang Jaya, Selangor. The course I'm currently 
         taking is Foundation in Computing. I chose this because I am interested in 
